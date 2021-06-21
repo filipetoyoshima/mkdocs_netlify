@@ -4,5 +4,6 @@ command = """
 pip3 install -q poetry &&
 poetry config virtualenvs.in-project true &&
 poetry install -v &&
+echo "DONE WITH INSTALL" &&
 mkdocs build -d site
 """
