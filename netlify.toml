@@ -4,8 +4,7 @@ command = """
 pip3 install -q poetry &&
 poetry config virtualenvs.in-project true &&
 poetry install -v &&
-printf "\n\n\n" &&
 pip3 freeze &&
-printf "\n\n\n" &&
+python3 --version &&
 mkdocs build -d site
 """
