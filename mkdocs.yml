@@ -5,3 +5,7 @@ theme:
 plugins:
   encryptcontent:
     global_password: 'probono10m'
+    summary: 'Insira a senha para continuar'
+    placeholder: 'Clique aqui e insira a senha'
+    decryption_failure_message: 'Senha incorreta'
+    encryption_info_message: 'Fala com o Toyoshima pra pegar a senha'
